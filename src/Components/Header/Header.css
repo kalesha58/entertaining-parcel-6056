@@ -1,0 +1,9 @@
+.log_sub{
+    display: flex;
+    gap:10px;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+
+}
