@@ -1,0 +1,36 @@
+.main_content{
+
+    border:1px solid red;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.main_content_2{
+    width:60%;
+    border:1px solid green ;
+    
+    margin-right: 20px;
+}
+.container{
+  margin-bottom: 10px;
+  width:120% ;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.search_img{
+    width:150px
+}
+.l_box{
+    display: flex;
+}
+.search_content{
+    width: 50%;
+    text-align: start;
+    margin-left: 28px;
+}
+.search_link{
+    width: 50%;
+    text-align: start;
+  padding-left: 180px;
+    /* border:1px solid red */
+}

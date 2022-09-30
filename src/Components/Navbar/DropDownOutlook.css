@@ -1,0 +1,45 @@
+.services-submenu1{
+  /* width: 10rem; */
+  position: absolute;
+  list-style: none;
+  text-align: start;
+  display: flex;
+  padding: 6px 10px ;
+  margin-top: 60px;
+
+  width: 100%;
+  margin-left: -130px;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(231, 225, 225);
+ 
+}
+.services-submenu1 li {
+  margin-right: 18px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  /* align-items: center; */
+  
+  
+}
+.services-submenu1.clicked{
+  display: none;
+}
+.submenu-item{
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+}
+.submenu-item:hover{
+    /* background-color: rgb(71, 218, 218);
+     */
+  color: rgb(247, 63, 63);
+
+
+ 
+}
+/* Your API key is: 5fa1ac22727847efbf1cf6c059630db9 */
