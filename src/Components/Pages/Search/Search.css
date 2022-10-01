@@ -1,0 +1,45 @@
+.main_content_s{
+
+  
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.main_content_2s{
+    width:60%;
+    border:1px solid black ;
+    
+    margin-right: 20px;
+    background-color: gray;
+    color:white
+}
+.container{
+  margin-bottom: 10px;
+  width:120% ;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.search_img1{
+    width:150px
+}
+.l_box{
+    display: flex;
+}
+.search_content{
+    width: 50%;
+    text-align: start;
+    margin-left: 28px;
+}
+.search_link{
+    width: 50%;
+    text-align: start;
+  padding-left: 180px;
+    /* border:1px solid red */
+}
+.add_image{
+    width: 60%;
+    border:1px solid black
+}
+.add_des{
+    font-size: 15px;
+}

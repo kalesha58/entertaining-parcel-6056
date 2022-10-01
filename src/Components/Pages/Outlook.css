@@ -1,0 +1,17 @@
+
+.box_url{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* width:80%; */
+    margin: auto;
+    gap:10px
+}
+.box_url{
+    width: 70%;
+}
+.box_box{
+    /* width:55% */
+    border:1px solid black;
+    border-radius: 5%;
+
+}

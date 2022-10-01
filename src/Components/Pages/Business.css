@@ -1,0 +1,17 @@
+.outlook_grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* width:80%; */
+    margin: auto;
+    gap:10px
+}
+.outlook_url{
+    width: 70%;
+
+}
+.out_look_grid_1{
+    /* width:55% */
+    /* border:1px solid black; */
+    border-radius: 5%;
+
+}
