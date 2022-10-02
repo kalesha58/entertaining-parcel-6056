@@ -1,0 +1,300 @@
+/* mian */
+
+.border_box {
+  display: flex;
+  border-right: 1px solid gray;
+  position: absolute;
+  left: 76%;
+  top: 235px;
+  height: 2400px;
+}
+.main_img {
+  width: 70%;
+  margin-right: 20%;
+  margin-top: 2%;
+
+}
+
+.publish {
+  font-family: kepler-std, serif;
+  width: 70%;
+  font-size: 50px;
+  text-align: start;
+}
+.publish:hover {
+  color: #d2051e;
+}
+.info {
+  width: 65%;
+  line-height: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+}
+.info > p {
+  line-height: 28px;
+  font-size: 20px;
+  font-family: kepler-std, serif;
+  line-height: 20px;
+  width: fit-content;
+  text-align: start;
+  padding-left: 10px;
+}
+.info_1 > p {
+  line-height: 28px;
+  font-size: 20px;
+  font-family: kepler-std, serif;
+  line-height: 20px;
+  width: fit-content;
+  text-align: start;
+  padding-left: 50px;
+  width: 120%;
+}
+
+.info_1 {
+  width: 100%;
+  text-decoration: none;
+  border-left: 2px solid gray;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 300px;
+}
+.time {
+  display: flex;
+  flex-direction: row;
+  color: red;
+}
+/* main end */
+.line {
+  width: 100%;
+}
+/* grid start */
+.img {
+  width: 50%;
+}
+.main_content_grid {
+  width: 75%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  overflow: hidden;
+  /* border: 1px solid black; */
+}
+
+
+.content {
+  font-size: 30px;
+  margin-right: 38%;
+}
+/* Two in one */
+
+.two_in_one {
+  /* border: 1px solid red; */
+  height: 600px;
+  display: grid;
+}
+.main_img_2 {
+  width: 30%;
+}
+.two_in_one_head {
+  font-family: kepler-std, serif;
+  font-size: 30px;
+
+  margin-top: -1%;
+}
+.two_in_one_head:hover {
+  color: #d2051e;
+}
+.author {
+  display: flex;
+  margin-top: -7%;
+  color: red;
+}
+.flex_content {
+  display: flex;
+  flex-direction: row;
+}
+/* Two in one end */
+
+/* money css */
+.business_grid {
+  width: 75%;
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.money_img {
+  width: 100%;
+  padding-top: 10px;
+}
+.money_img_title {
+  font-family: kepler-std, serif;
+  font-size: 25px;
+  text-align: start;
+}
+.money_img_title:hover {
+  color: #d2051e;
+}
+.money_heading {
+  color: red;
+
+  text-align: start;
+  font-family: kepler-std-condensed-subhead, serif;
+}
+.business_card {
+  /* width:150%; */
+  /* border: 1px solid black; */
+  height: 500px;
+}
+.money_content {
+  text-align: start;
+  margin-right: 3%;
+}
+/* technology */
+.tech_two_in_one {
+  display: grid;
+  /* border:1px solid red; */
+}
+.tech_card {
+  height: 595px;
+}
+.three_items {
+  background-color: rgb(197, 193, 193);
+  margin-bottom: 5px;
+}
+.tech_img {
+  text-align: center;
+  width: 30%;
+}
+.img_title {
+  font-size: 25px;
+  line-height: 20px;
+  font-family: kepler-std, serif;
+  text-align: center;
+}
+.img_title:hover {
+  color: red;
+}
+.tech_flex {
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+.three_items {
+  display: flex;
+}
+.three_items > img {
+  width: 30%;
+}
+.flex_part_money {
+  height: 200px;
+}
+/* money css end */
+
+/* slice 2 */
+.main_img_1 {
+  width: 100%;
+  height: 300px;
+  margin-left: -20%;
+}
+.main_content_2{
+  border:1px solid red;
+  margin-right: 120%;
+}
+
+.rama_content{
+   font-size: 30px;
+}
+.rama_content_2{
+    line-height: 30px;
+    text-align: start;
+}
+.rama_content:hover {
+  color: #d2051e;
+}
+.publish_data {
+  color: red;
+  margin-top: -5%;
+  margin-right: 55%;
+}
+/* crypto divs */
+.grid_divs{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+
+
+}
+.grid_divs>div>img{
+  width:80%;
+
+}
+.data{
+  font:24px;
+  line-height: 26px;
+  text-align: start;
+  margin-left: 8%;
+  font-family:kepler-std, serif ;
+
+}
+.paragraph{
+  font-size: 16px;
+  line-height: 20px;
+  text-align: start;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+
+/* sports */
+.s1 h2 {
+   text-align: center;
+   margin-right: 45%;
+
+
+}
+.s1 p {
+  text-align: center;
+  margin-right: 55%;
+  text-align: center;
+
+
+}
+.s1_img{
+  width:80%;
+  /* margin-right: 40%; */
+  
+}
+
+.sports_flex{
+  display: flex;
+}
+.sports_flex_1{
+  display: flex;
+}
+.sports_grid{
+  /* border: 1px solid red; */
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  width:70%;
+  margin-right: 5%;
+}
+.s{
+  width: 50%;
+}
+.s_head{
+   font-size: 20px;
+   line-height: 24px;
+   text-align: center;
+   
+}
+.s_head:hover{
+  color:rgb(247, 96, 96)
+}
+.paragraph1{
+  text-align: center;
+  line-height: 24px;
+  font-size: 16px;
+  /* border:1px solid red ; */
+}
